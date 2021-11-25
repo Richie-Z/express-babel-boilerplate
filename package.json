@@ -1,13 +1,13 @@
 {
-  "name": "api-pengaduan",
-  "version": "0.0.0",
+  "name": "express-babel-boilerplate",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "nodemon ./src/bin/www.js --exec babel-node",
     "clean": "rmdir /q /s dist && mkdir dist",
     "build": "npm run clean &&  babel ./src --out-dir dist --copy-files",
     "start": "node ./dist/bin/www.js",
-    "serve": "SET DEBUG=api-pengaduan:* & npm run dev"
+    "serve": "SET DEBUG=express-babel-boilerplate:* & npm run dev"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
